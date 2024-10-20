@@ -1,0 +1,72 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #121212; /* Fundo mais escuro */
+    --branco: #E0E0E0; /* Texto claro */
+    --laranja: #FF5722; /* Laranja intenso para botões */
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #3F51B5; /* Azul para destaques */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco); /* Texto claro */
+}
+
+.cabeçalho {
+    background-color: #1C1C1C; /* Cabeçalho escuro */
+}
+
+.lista-menu__link {
+    color: #FF4081; /* Cor dos links */
+}
+
+.lista-menu__link:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #1C1C1C; /* Fundo do banner */
+    padding: 2rem;
+    text-align: center;
+}
+
+.banner__pesquisa {
+    background-color: var(--branco);
+    color: var(--cor-de-fundo);
+}
+
+.carrossel__titulo,
+.tópicos__titulo,
+.contato__titulo {
+    color: var(--laranja); /* Destaque dos títulos */
+}
+
+.card {
+    background-color: #1C1C1C; /* Fundo das cards */
+    border: 1px solid var(--azul); /* Borda azul */
+}
+
+.card__botões .botões__ancora {
+    background-color: var(--laranja); /* Botões laranja */
+    color: var(--branco);
+}
+
+.card__botões .botões__ancora:hover {
+    background-color: #FF4081; /* Hover dos botões */
+}
+
+.rodapé {
+    background-color: #1C1C1C; /* Rodapé escuro */
+    text-align: center;
+    padding: 1rem;
+}
